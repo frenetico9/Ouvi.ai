@@ -1,0 +1,8 @@
+{
+  "name": "Ouvi.ai",
+  "description": "Assistente da Ouvidoria da Receita Federal para auxiliar com suas dúvidas e processos.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "prompt": ""
+}
