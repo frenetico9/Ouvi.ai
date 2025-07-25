@@ -1,5 +1,5 @@
 
-import { MessagePart } from '../types';
+import { Message, MessageRole } from '../types';
 import { CLASSIFICATION_DATA } from './classificationData';
 import { KNOWLEDGE_BASE } from "./knowledgeBase";
 
@@ -70,29 +70,48 @@ class AiService {
   constructor() {}
 
   private getApiKey(): string {
-    const keyIndex = Math.floor(requestCounter / 3) % API_KEYS.length;
+    const keyIndex = Math.floor(requestCounter / 2) % API_KEYS.length;
     return API_KEYS[keyIndex];
   }
 
-  async sendMessageStream(parts: MessagePart[]): Promise<AsyncGenerator<string, void, unknown>> {
+  async sendMessageStream(history: Message[]): Promise<AsyncGenerator<string, void, unknown>> {
     requestCounter++;
 
-    const userContent = parts.map(part => {
-        if (part.text) {
-            return { type: 'text', text: part.text };
-        }
-        if (part.inlineData) {
-            // Reconstruct the full data URI for the image
-            const dataUrl = `data:${part.inlineData.mimeType};base64,${part.inlineData.data}`;
-            return { type: 'image_url', image_url: { url: dataUrl } };
-        }
-        return null;
-    }).filter(Boolean);
+    const apiMessages = history
+        .filter(msg => msg.role !== MessageRole.ERROR) // Filter out error messages
+        .map(msg => {
+            const role = msg.role === MessageRole.USER ? 'user' : 'assistant';
+            
+            const content: any[] = [];
+            
+            let combinedText = msg.parts.map(p => p.text || '').join('\n');
+            
+            if (msg.attachments) {
+                msg.attachments.forEach(file => {
+                    if (file.type.startsWith('image/')) {
+                        content.push({
+                            type: 'image_url',
+                            image_url: { url: file.content }
+                        });
+                    } else if (file.type === 'text/plain') {
+                         combinedText += `\n\n--- Conteúdo do arquivo ${file.name} ---\n${file.content}`;
+                    } else {
+                         combinedText += `\n[O usuário anexou o arquivo: ${file.name}]`;
+                    }
+                });
+            }
 
+            if (combinedText.trim()) {
+                content.unshift({ type: 'text', text: combinedText.trim() });
+            }
+
+            return { role, content };
+        })
+        .filter(msg => msg.content.length > 0);
 
     const messages = [
         { role: 'system', content: SYSTEM_INSTRUCTION },
-        { role: 'user', content: userContent },
+        ...apiMessages,
     ];
 
     const response = await fetch(OPENROUTER_URL, {
