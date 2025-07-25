@@ -1,5 +1,6 @@
+
 import { useState, useEffect, useCallback, useMemo } from 'react';
-import { Message, FileAttachment, MessageRole, MessagePart } from '../types';
+import { Message, FileAttachment, MessageRole } from '../types';
 import { getAiService } from '../services/geminiService';
 
 const LOCAL_STORAGE_KEY = 'ouviAiMultiChat';
@@ -84,7 +85,7 @@ export const useChat = () => {
 
         if (activeChatId === chatId) {
             const remainingIds = Object.keys(allChats).filter(id => id !== chatId);
-            const sortedRemainingIds = remainingIds.sort((a, b) => b.localeCompare(a));
+            const sortedRemainingIds = remainingIds.sort((a, b) => b[0].localeCompare(a));
             
             if (sortedRemainingIds.length > 0) {
                 setActiveChatId(sortedRemainingIds[0]);
@@ -100,13 +101,16 @@ export const useChat = () => {
         let currentChatId = activeChatId;
 
         if (!currentChatId) {
-            // This case should ideally not happen if startNewChat is called on load, but as a fallback:
             const newId = `chat-${Date.now()}`;
             setAllChats(prev => ({ ...prev, [newId]: [] }));
             setActiveChatId(newId);
             currentChatId = newId;
         }
         
+        if (!text.trim() && files.length === 0) {
+            return; // Don't send empty messages
+        }
+
         setIsLoading(true);
         setError(null);
 
@@ -127,38 +131,15 @@ export const useChat = () => {
             timestamp: new Date().toISOString(),
         };
         
+        const historyForAPI = [...(allChats[currentChatId] || []), userMessage];
+        
         setAllChats(prev => ({
             ...prev,
-            [currentChatId!]: [...prev[currentChatId!], userMessage, initialModelMessage]
+            [currentChatId!]: [...historyForAPI, initialModelMessage]
         }));
 
         try {
-            const apiParts: MessagePart[] = [];
-            let combinedText = text;
-            files.forEach(file => {
-                if (file.type !== 'text/plain' && !file.type.startsWith('image/')) {
-                    combinedText += `\n[O usuário anexou o arquivo: ${file.name}]`;
-                } else if (file.type === 'text/plain') {
-                    combinedText += `\n\n--- Conteúdo do arquivo ${file.name} ---\n${file.content}`;
-                }
-            });
-            if (combinedText.trim()) {
-                apiParts.push({ text: combinedText.trim() });
-            }
-
-            const imageFiles = files.filter(f => f.type.startsWith('image/'));
-            for (const file of imageFiles) {
-                const [header, base64Data] = file.content.split(',');
-                const mimeType = header.match(/:(.*?);/)?.[1] || 'application/octet-stream';
-                apiParts.push({ inlineData: { mimeType, data: base64Data } });
-            }
-            
-            if (apiParts.length === 0) {
-                handleError("Por favor, envie uma mensagem ou um arquivo.", currentChatId!);
-                return;
-            }
-
-            const stream = await aiService.sendMessageStream(apiParts);
+            const stream = await aiService.sendMessageStream(historyForAPI);
             
             let fullResponse = '';
             for await (const chunkText of stream) {
@@ -183,7 +164,7 @@ export const useChat = () => {
             setIsLoading(false);
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [aiService, activeChatId]);
+    }, [aiService, activeChatId, allChats]);
 
     return { messages, allChats, activeChatId, isLoading, error, sendMessage, startNewChat, switchChat, deleteChat };
 };
