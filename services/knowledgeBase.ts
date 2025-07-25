@@ -1161,58 +1161,6 @@ A Ouvidoria agradece o seu contato.
 ---
 **Área (N1):** Aduana
 **Assunto (N2):** Importação e Exportação
-**Título:** Regime de Tributação Simplificada (RTS)
-**Resposta Padrão:**
-Em atenção à sua manifestação esta ouvidoria esclarece que a Secretaria Especial da Receita Federal do Brasil (RFB) aplica o Regime de Tributação Simplificada (RTS), instituído pelo Decreto-Lei nº 1.804, de 3 de setembro de 1980, para a tributação de bens na importação efetuada por meio de encomendas internacionais.  
-
-O RTS foi instituído para a cobrança do Imposto de Importação (II) incidente sobre bens contidos em remessas postais internacionais, cujo Decreto-Lei dispôs ainda sobre:
-
-a) a isenção do Imposto sobre Produtos Industrializados (IPI);
-b) a competência para o Ministro da Fazenda estabelecer:
-i. classificação genérica de bens em um ou mais grupos;
-ii. aplicação de alíquotas constantes ou progressivas, em função do valor das remessas, não superiores a 400% (quatrocentos por cento);
-iii. isenção do II para bens com valor de até US$ 100,00 (cem dólares dos Estados Unidos da América), ou o equivalente em outras moedas - “de minimis”- quando destinados a pessoas físicas; e
-iv. extensão do RTS às encomendas aéreas internacionais transportadas com a emissão de conhecimento aéreo.  
-
-A Lei nº 10.865, de 30 de abril de 2004, promoveu a isenção das contribuições PIS/PASEP–Importação e COFINS-Importação de bens importados com aplicação do RTS.
-
-Antes de tratar do detalhamento da tributação das encomendas internacionais, é importante destacar que não são tributadas as encomendas internacionais cujo conteúdo esteja coberto pela imunidade constitucional, ou seja, livros, revistas e periódicos. Então, o detalhamento a seguir não se aplica a essas imunidades.
-
-O Ministério da Fazenda, por meio da Portaria MF nº 156, de 24 de junho de 1999, definiu a abrangência do RTS para as encomendas internacionais no valor de até US$ 3.000.00 (três mil dólares) ou o equivalente em outra moeda, destinada a pessoa física ou jurídica, mediante o pagamento do II calculado com a aplicação da alíquota de 60% (sessenta por cento), independentemente da classificação tarifária dos bens que compõem a encomenda.  
-
-Cabe ainda a cobrança do ICMS-Importação a cargo da unidade de federação de destino da carga e, como parte da transação privada entre cliente e fornecedor de serviços, a cobrança de outros possíveis custos dos Correios (ECT) e das empresas de courier.
-
-Não há tributação para as encomendas internacionais cujo conteúdo seja medicamento com valor de até US$ 10.000,00 (dez mil dólares) ou o equivalente em outra moeda, importados por pessoa física para uso próprio ou individual, desde que cumpridos todos os requisitos estabelecidos pelos órgãos de controle administrativo, pois a Portaria MF nº 156, de 1999, definiu alíquota zero do II para esse caso.
-
-A Portaria ainda liberou da tributação do II os casos em que a encomenda internacional, conjuntamente:  
-
-a) tiver valor até US$ 50,00 (cinquenta dólares),
-b) seja enviada por uma pessoa física e destinada a uma pessoa física, não configurando compra, e  
-c) seja transportada pela Empresa Brasileira de Correios e Telégrafos (ECT).
-
-Diante de diversos questionamentos judiciais a respeito desse limite de isenção de US$ 50,00, a RFB emitiu posicionamento oficial acerca de seu alcance, nos termos de Nota Técnica Sutri/Suari, divulgada em 12/02/2014.  
-
-A referida Nota Técnica pode ser acessada no endereço: 
-
-https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2014/fevereiro/nota-tecnica-limite-de-isencao-em-remessas-de-pequeno-valor  
-
-Destaque-se ainda que, as decisões judiciais sobre a matéria de que se tem conhecimento até o momento produzem efeitos unicamente entre as partes. Além disso, a Segunda Turma do Superior Tribunal de Justiça (STJ) já firmou entendimento pacífico de que a Portaria MF nº 156/1999 é plenamente válida, no sentido de que a isenção prevista no Decreto-Lei nº 1.804/1980 é aplicável apenas para encomendas postais de valor inferior a US$ 50,00 e cujos destinatário e remetente sejam ambos pessoas físicas.
-
-Maiores detalhes podem ser consultados no endereço: 
-
-https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/remessas-postal-e-expressa/topicos/nao-tributacao#deminimis
-
-Veja o Simulador de Cálculo: 
-
-http://www4.receita.fazenda.gov.br/simulador/ que apresenta o valor dos tributos federais conforme a classificação do produto a ser importado.
-
-Quando necessário, disponha desta Ouvidoria para tratar de serviços prestados pela Receita Federal. Estamos aqui para garantir o direito de manifestação da sociedade.
-
-A Ouvidoria agradece o seu contato.
-
----
-**Área (N1):** Aduana
-**Assunto (N2):** Importação e Exportação
 **Título:** Não cumprimento de exigência fiscal
 **Resposta Padrão:**
 Em atenção à sua manifestação esta ouvidoria informa que a devolução determinada pela autoridade aduaneira competente ocorreu em razão de não cumprimento de exigência fiscal dentro do prazo legal, com base nos artigos 50, §2º e 54, I, ambos da IN RFB nº 1.737/2017.
@@ -1371,7 +1319,7 @@ A Ouvidoria agradece o seu contato.
 **Resposta Padrão:**
 Em atenção à sua manifestação, esta Ouvidoria informa que a Receita Federal está construindo estratégias unificadas para o oferecimento de um atendimento diferenciado aos Entes Federativos. Uma das medidas já adotadas por algumas regiões fiscais é a criação de Processo Digital do tipo Certificado para solicitar informações e requerer serviços de competência da Equipe Regional de Acompanhamento dos Órgãos do Poder Público (EOPP), como, por exemplo: a) Apresentação mensal, até o 4º dia útil do mês, da relação de comando de retenções no FPE/FPM de CSPREV devedoras; b) Solicitação de desbloqueio do FPE/FPM; e c) Solicitação de Parcelamentos; d) Saldo Devedor Previdenciário Anual (para prestação de contas). Ressalta-se que os serviços disponíveis no portal e-CAC como Certidão, Redarf, Retgps, DBE e Procuração RFB deverão ser solicitados obrigatoriamente em Processo Digital específico. Recomenda-se aos Entes a buscarem no e-CAC no link:  
 
-https://cav.receita.fazenda.gov.br/autenticacao/login/index
+https://cav.receita.fazenda.gov.br/autenticacao/login
 
 O Processo Digital de Atendimento dispõe de comunicados mensais sobre retenções, sendo necessário aderir ao DTE para o recebimento de alertas das comunicações.
 
@@ -1630,6 +1578,25 @@ A Ouvidoria agradece o seu contato.
 ---
 **Área (N1):** Atendimento
 **Assunto (N2):** Certidão Negativa RFB/PGFN e Situação Fiscal
+**Título:** Emissão da CND
+**Resposta Padrão:**
+Em atenção à sua manifestação, esta Ouvidoria informa que a certidão negativa (CND) pode ser emitida pelo nosso site: 
+
+https://www.gov.br/receitafederal/pt-br/servicos/certidoes/emitir-certidao
+
+Caso não seja emitida e apareça uma mensagem de que as informações são insuficientes, é porque há pendências em seu CPF. Para saber quais, basta acessar o Portal e-CAC no link:
+
+https://sso.acesso.gov.br/login?client_id=cav.receita.fazenda.gov.br&authorization_id=18c362f8d61
+
+Selecione a opção ""CERTIDÕES E SITUAÇÃO FISCAL"" e clique em gerar um ""CONSULTA PENDENCIAS - SITUAÇÃO FICAL"" e depois na opção à esquerda ""GERAR RELATÓRIO"", e, novamente, ""GERAR RELATÓRIO"" do lado direito da pagina. Dessa forma, poderá verificar quais são as pendências existentes em seu CPF. Se a situação já estiver regularizada, mas ainda constar no relatório de pendências, sugerimos que protocolize o pedido de CND pelo e-CAC, abrindo um processo digital.
+
+Quando necessário, disponha desta Ouvidoria para tratar de serviços prestados pela Receita Federal. Estamos aqui para garantir o direito de manifestação da sociedade.
+
+A Ouvidoria agradece o seu contato.
+
+---
+**Área (N1):** Atendimento
+**Assunto (N2):** Certidão Negativa RFB/PGFN e Situação Fiscal
 **Título:** Prazo máximo para emissão da certidão, quando solicitada à Receita Federal
 **Resposta Padrão:**
 Em atenção à sua manifestação, esclarecemos que o prazo máximo para emissão da certidão, quando solicitada à Receita Federal, é de 10 (dez) dias corridos e que o atendimento aos processos segue rigorosamente a ordem cronológica de entrada no setor responsável pela análise, salvo os processos prioritários (idosos e pessoas com moléstia grave), bem como a capacidade operacional do Órgão.
@@ -1647,25 +1614,6 @@ Em atenção à sua manifestação, esta Ouvidoria esclarece que, o erro SI002 �
  
 Orientamos ainda que feche todas as janelas dos navegadores, realize a limpeza do cache para realizar nova tentativa de acesso.
  
-Quando necessário, disponha desta Ouvidoria para tratar de serviços prestados pela Receita Federal. Estamos aqui para garantir o direito de manifestação da sociedade.
-
-A Ouvidoria agradece o seu contato.
-
----
-**Área (N1):** Atendimento
-**Assunto (N2):** Certidão Negativa RFB/PGFN e Situação Fiscal
-**Título:** Emissão da CND
-**Resposta Padrão:**
-Em atenção à sua manifestação, esta Ouvidoria informa que a certidão negativa (CND) pode ser emitida pelo nosso site: 
-
-https://www.gov.br/receitafederal/pt-br/servicos/certidoes/emitir-certidao
-
-Caso não seja emitida e apareça uma mensagem de que as informações são insuficientes, é porque há pendências em seu CPF. Para saber quais, basta acessar o Portal e-CAC no link:
-
-https://sso.acesso.gov.br/login?client_id=cav.receita.fazenda.gov.br&authorization_id=18c362f8d61
-
-Selecione a opção ""CERTIDÕES E SITUAÇÃO FISCAL"" e clique em gerar um ""CONSULTA PENDENCIAS - SITUAÇÃO FICAL"" e depois na opção à esquerda ""GERAR RELATÓRIO"", e, novamente, ""GERAR RELATÓRIO"" do lado direito da pagina. Dessa forma, poderá verificar quais são as pendências existentes em seu CPF. Se a situação já estiver regularizada, mas ainda constar no relatório de pendências, sugerimos que protocolize o pedido de CND pelo e-CAC, abrindo um processo digital.
-
 Quando necessário, disponha desta Ouvidoria para tratar de serviços prestados pela Receita Federal. Estamos aqui para garantir o direito de manifestação da sociedade.
 
 A Ouvidoria agradece o seu contato.
@@ -2480,4 +2428,230 @@ O relatório não mostra dados do débito, apenas do órgão credor que efetuou 
 Quando necessário, disponha desta Ouvidoria para tratar de serviços prestados pela Receita Federal. Estamos aqui para garantir o direito de manifestação da sociedade.
 
 A Ouvidoria agradece o seu contato.
+
+### **Inventário de Links e Estrutura do Portal da Receita Federal**
+
+Esta seção contém um inventário detalhado dos links e da estrutura do portal gov.br/receitafederal, extraído de um relatório abrangente. Utilize esta informação para fornecer URLs precisas e orientar os usuários sobre onde encontrar serviços e informações.
+
+---
+
+#### **2.1. Serviços**
+
+**Serviços de A a Z**
+- Link: https://www.gov.br/pt-br/orgaos/secretaria-especial-da-receita-federal-do-brasil
+
+**Auditorias Fiscais**
+- Link Principal: https://www.gov.br/receitafederal/pt-br/servicos/auditorias-fiscais
+- Sub-serviços:
+  - Consultar procedimentos fiscais: https://www.gov.br/receitafederal/pt-br/servicos/auditorias-fiscais/consultar-procedimentos-fiscais
+  - Responder notificações: https://www.gov.br/receitafederal/pt-br/servicos/auditorias-fiscais/responder-notificacoes
+  - Obter laudo fiscal: https://www.gov.br/receitafederal/pt-br/servicos/auditorias-fiscais/obter-laudo-fiscal
+
+**Cadastro**
+- Link Principal: https://www.gov.br/receitafederal/pt-br/servicos/cadastro
+- Sub-serviços:
+  - Cidadão (CPF/CAEPF): https://www.gov.br/receitafederal/pt-br/servicos/cadastro/cidadao
+  - Pessoa Jurídica (CNPJ): https://www.gov.br/receitafederal/pt-br/servicos/cadastro/cnpj
+  - Imóvel Rural: https://www.gov.br/receitafederal/pt-br/servicos/cadastro/ruraL
+  - Obra de Construção Civil: https://www.gov.br/receitafederal/pt-br/servicos/cadastro/obra
+  - Grandes Contribuintes: https://www.gov.br/receitafederal/pt-br/servicos/cadastro/maco
+  - Registros Especiais: https://www.gov.br/receitafederal/pt-br/servicos/cadastro/registros-especiais
+
+**Certidões e Atestados**
+- Link Principal: https://www.gov.br/receitafederal/pt-br/servicos/certidoes
+- Sub-serviços:
+  - Consultar certidões emitidas pela Receita Federal e ou Procuradoria-Geral da Fazenda Nacional: https://www.gov.br/pt-br/servicos/consultar-certidoes-emitidas-pela-receita-federal-e-ou-procuradoria-geral-da-fazenda-nacional
+  - Emitir certidão: https://www.gov.br/receitafederal/pt-br/servicos/certidoes/emitir-certidao
+  - Anular certidão de regularidade fiscal: https://www.gov.br/receitafederal/pt-br/servicos/certidoes/anular-certidao-de-regularidade-fiscal
+  - Obter atestado fiscal: https://www.gov.br/receitafederal/pt-br/servicos/certidoes/obter-atestado-fiscal
+
+**Comércio Exterior**
+- Link Principal: https://www.gov.br/receitafederal/pt-br/servicos/comercio-exterior
+- Sub-serviços:
+  - Comércio Exterior: https://www.gov.br/receitafederal/pt-br/servicos/comercio-exterior
+
+**Comunicações Eletrônicas**
+- Link Principal: https://www.gov.br/receitafederal/pt-br/servicos/comunicacoes-eletronicas
+- Sub-serviços:
+  - Compartilhar dados fiscais: https://www.gov.br/pt-br/servicos/autorizar-o-compartilhamento-de-dados-fiscais
+  - Consultar correio eletrônico: https://www.gov.br/pt-br/servicos/consultar-comunicacoes-e-intimacoes-eletronicas-da-receita-federal
+  - Consultar editais e atos declaratórios-executivos da receita-federal: https://www.gov.br/pt-br/servicos/consultar-editais-e-atos-declaratorios-executivos-da-receita-federal
+  - Optar pelo Domicílio Tributário Eletrônico (DTE): https://www.gov.br/pt-br/servicos/optar-pelo-domicilio-tributario-eletronico
+
+**Declarações e Escriturações**
+- Link Principal: https://www.gov.br/receitafederal/pt-br/servicos/declaracoes-e-escrituracoes
+- Sub-serviços:
+  - Consultar informações: https://www.gov.br/receitafederal/pt-br/servicos/declaracoes-e-escrituracoes/consultar-informacoes
+  - Entregar escrituração: https://www.gov.br/receitafederal/pt-br/servicos/declaracoes-e-escrituracoes/escrituracao
+  - Entregar declaração: https://www.gov.br/receitafederal/pt-br/servicos/declaracoes-e-escrituracoes/declaracao
+  - Entregar documentos de malha: https://www.gov.br/receitafederal/pt-br/servicos/declaracoes-e-escrituracoes/malha
+  - Cancelar declaração: https://www.gov.br/pt-br/servicos/cancelar-declaracao
+  - Obter cópias de declarações: https://www.gov.br/receitafederal/pt-br/servicos/declaracoes-e-escrituracoes/copias
+  - Simular cálculos: https://www.gov.br/receitafederal/pt-br/servicos/declaracoes-e-escrituracoes/calculos
+
+**Defesas e Recursos**
+- Link Principal: https://www.gov.br/receitafederal/pt-br/servicos/defesas-e-recursos
+- Sub-serviços:
+  - Defesas e Recursos: https://www.gov.br/receitafederal/pt-br/servicos/defesas-e-recursos
+
+**Interpretação da Legislação**
+- Link Principal: https://www.gov.br/receitafederal/pt-br/servicos/interpretacao
+- Sub-serviços:
+  - Consultar normas da RFB: http://normas.receita.fazenda.gov.br/
+  - Consultar soluções da RFB: http://atosdecisorios.receita.fazenda.gov.br
+  - Formalizar consulta sobre classificação fiscal de mercadorias: https://www.gov.br/pt-br/servicos/formalizar-consulta-sobre-classificacao-fiscal-de-mercadorias
+  - Formalizar consulta sobre interpretação da legislação tributária: https://www.gov.br/pt-br/servicos/formalizar-consulta-sobre-interpretacao-da-legislacao-tributaria
+
+**Isenções e Regimes Especiais**
+- Link Principal: https://www.gov.br/receitafederal/pt-br/servicos/beneficios-fiscais
+- Sub-serviços:
+  - Isenções e Regimes Especiais: https://www.gov.br/receitafederal/pt-br/servicos/beneficios-fiscais
+
+**Processos Digitais**
+- Link Principal: https://www.gov.br/receitafederal/pt-br/servicos/processos-digitais
+- Sub-serviços:
+  - Consultar processos: https://www.gov.br/pt-br/servicos/consultar-processo
+  - Juntar documentos a processo: https://www.gov.br/pt-br/servicos/juntar-documentos-a-processo
+  - Validar e assinar documentos digitais: https://www.gov.br/pt-br/servicos/validar-e-assinar-documentos-digitais
+
+**Procurações Digitais**
+- Link Principal: https://www.gov.br/receitafederal/pt-br/servicos/procuracoes
+- Sub-serviços:
+  - Cadastrar ou cancelar procuração para acesso ao e-CAC: https://www.gov.br/pt-br/servicos/cadastrar-ou-cancelar-procuracao-para-acesso-ao-e-cac
+  - Restringir acesso de procurador a processos digitais: https://www.gov.br/pt-br/servicos/restringir-acesso-de-procurador-a-processos-digitais
+
+**Regularização de Impostos**
+- Link Principal: https://www.gov.br/receitafederal/pt-br/servicos/regularizacao-de-impostos
+- Sub-serviços:
+  - Consultar dívidas e pendências: https://www.gov.br/receitafederal/pt-br/servicos/regularizacao-de-impostos/consultar-dividas
+  - Pagar impostos: https://www.gov.br/receitafederal/pt-br/servicos/regularizacao-de-impostos/pagar-impostos
+  - Alterar pagamentos: https://www.gov.br/receitafederal/pt-br/servicos/regularizacao-de-impostos/alterar-pagamentos
+  - Consultar pagamentos: https://www.gov.br/receitafederal/pt-br/servicos/regularizacao-de-impostos/consultar-pagamentos
+  - Parcelar dívidas: https://www.gov.br/receitafederal/pt-br/servicos/regularizacao-de-impostos/parcelar-dividas
+  - Consultar parcelamentos: https://www.gov.br/receitafederal/pt-br/servicos/regularizacao-de-impostos/consultar-parcelamentos
+  - Fazer acordo de transação: https://www.gov.br/receitafederal/pt-br/servicos/regularizacao-de-impostos/fazer-acordo
+  - Revisar débitos e pendências: https://www.gov.br/receitafederal/pt-br/servicos/regularizacao-de-impostos/revisar-debitos-e-pendencias
+  - Consultar: https://www.gov.br/receitafederal/pt-br/servicos/regularizacao
+
+**Restituições e Compensações**
+- Link Principal: https://www.gov.br/receitafederal/pt-br/servicos/restituicoes-e-compensacoes
+- Sub-serviços:
+  - Consultar restituição: https://www.gov.br/receitafederal/pt-br/servicos/restituicoes-e-compensacoes/consultar-restituicao
+  - Obter restituição: https://www.gov.br/receitafederal/pt-br/servicos/restituicoes-e-compensacoes/obter-restituicao
+  - Compensar impostos: https://www.gov.br/receitafederal/pt-br/servicos/restituicoes-e-compensacoes/compensar
+
+**Conveniados e Parceiros**
+- Link Principal: https://www.gov.br/receitafederal/pt-br/servicos/conveniados-e-parceiros
+- Sub-serviços:
+  - Estados e Municípios: https://www.gov.br/receitafederal/pt-br/servicos/conveniados-e-parceiros/estados-e-municipios
+  - Rede Arrecadadora: https://www.gov.br/receitafederal/pt-br/servicos/conveniados-e-parceiros/rede-arrecadadora
+  - Casa da Moeda: https://www.gov.br/receitafederal/pt-br/servicos/conveniados-e-parceiros/casa-da-moeda
+  - Outras Entidades conveniadas: https://www.gov.br/receitafederal/pt-br/servicos/conveniados-e-parceiros/entidades-conveniadas
+
+**Reforma Tributária**
+- Link Principal: https://www.gov.br/receitafederal/pt-br/servicos/reforma-tributaria
+- Sub-serviços:
+  - Aderir ao Piloto da Reforma Tributária da CBS: https://www.gov.br/pt-br/servicos/aderir-ao-piloto-da-cbs
+  - Contribuição sobre Bens e Serviços (CBS)
+
+---
+
+#### **2.2. Assuntos**
+
+- **Notícias**: https://www.gov.br/receitafederal/pt-br/assuntos/noticias
+  - Todas as notícias: https://www.gov.br/receitafederal/pt-br/assuntos/noticias
+  - Arrecadação e Cobrança: https://www.gov.br/receitafederal/pt-br/assuntos/noticias/arrecadacao-e-cobranca
+  - Cidadania Fiscal: https://www.gov.br/receitafederal/pt-br/assuntos/noticias/cidadania
+  - Combate ao contrabando: https://www.gov.br/receitafederal/pt-br/assuntos/noticias/contrabando
+  - Combate à corrupção: https://www.gov.br/receitafederal/pt-br/assuntos/noticias/corrupcao
+  - Combate à sonegação: https://www.gov.br/receitafederal/pt-br/assuntos/noticias/sonegacao
+  - Institucional: https://www.gov.br/receitafederal/pt-br/assuntos/noticias/institucional-2
+  - Serviços: https://www.gov.br/receitafederal/pt-br/assuntos/noticias/servicos
+  - Tributação: https://www.gov.br/receitafederal/pt-br/assuntos/noticias/tributacao-2
+- **Agenda Tributária**: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria
+- **Taxas de Juros**: https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/pagamentos-e-parcelamentos
+- **Aduana e Comércio Exterior**: https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior
+  - Atendimento via e-CAC: https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/atendimento/servicos-aduaneiros-via-e-cac
+  - Classificação Fiscal de Mercadorias: https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias
+  - Controle de Carga e Trânsito (CCT): https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/subportais-aduana-e-comercio-exterior/controle-de-carga
+  - Como Importar ou Exportar: https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/subportais-aduana-e-comercio-exterior/intervenientes/como-importar-ou-exportar/saiba-como-importar-ou-exportar
+  - Compras Internacionais: https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/remessas-postal-e-expressa
+  - Guia do Viajante: https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/viagens-internacionais
+  - Exportação: https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/subportais-aduana-e-comercio-exterior/exportacao
+  - Importação: https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/subportais-aduana-e-comercio-exterior/importacao
+  - Intervenientes no Comércio Exterior: https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/subportais-aduana-e-comercio-exterior/intervenientes
+  - Manuais Aduaneiros: https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais
+  - Operador Econômico Autorizado (OEA): https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/importacao-e-exportacao/oea
+  - Regimes Aduaneiros Especiais: https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/subportais-aduana-e-comercio-exterior/regimes-aduaneiros-especiais
+  - Serviços - Aduana: https://www.gov.br/receitafederal/pt-br/servicos/aduana
+  - Siscomex: https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/subportais-aduana-e-comercio-exterior/siscomex
+  - Notícias Aduaneiras: https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/noticias-aduaneiras
+- **Meu CPF**: https://www.gov.br/receitafederal/pt-br/assuntos/meu-cpf
+- **Meu Imposto de Renda**: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda
+- **Minhas Empresas e Negócios**: https://www.gov.br/receitafederal/pt-br/assuntos/meus-negocios
+- **Construção Civil**: https://www.gov.br/receitafederal/pt-br/assuntos/construcao-civil
+- **Leilão e Doação**: https://www.gov.br/receitafederal/pt-br/assuntos/leilao
+- **Orientações sobre Processos Digitais**: https://www.gov.br/receitafederal/pt-br/assuntos/processos-digitais
+- **Mais Orientações Tributárias**: https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria
+  - Fiscalização: https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/auditoria-fiscal
+  - Benefícios Fiscais: https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/beneficios-fiscais
+  - Cadastros: https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros
+  - Cobranças e Intimações: https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cobrancas-e-intimacoes
+  - Controles Fiscais Especiais: https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/regimes-e-controles-especiais
+  - Declarações e Demonstrativos: https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos
+  - Julgamento Administrativo: https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/julgamento-administrativo
+  - Restituição, Ressarcimento, Reembolso e Compensação: https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/restituicao-ressarcimento-reembolso-e-compensacao
+  - Sigilo Fiscal: https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/sigilo-fiscal
+  - Tributos: https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/tributos
+
+---
+
+#### **2.3. Acesso à Informação**
+
+- **Institucional**: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/institucional
+  - Estrutura Organizacional: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/institucional/estrutura-organizacional
+  - Quem é Quem: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/institucional/quem-e-quem
+  - Cadeia de Valor: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/institucional/cadeia-de-valor
+  - Código de Conduta: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/institucional/codigo-de-conduta
+  - Competências: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/institucional/competencias
+  - História da Receita Federal: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/institucional/historia-receita
+  - Planejamento Estratégico: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/institucional/planejamento-estrategico
+  - Relações Internacionais: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/institucional/relacoes-internacionais
+- **Ações e Programas**: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas
+  - Ações, Atividades, Obras, Programas e Projetos: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades
+  - Carta de Serviços: https://www.gov.br/receitafederal/pt-br/servicos
+  - Governança: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/governanca
+- **Participação Social**: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/participacao-social
+  - Audiências e Consultas Públicas: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/participacao-social/participamaisbrasil
+  - Anos Anteriores: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/participacao-social/audiencias-e-consultas-publicas
+  - Conselhos e Órgãos Colegiados: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados
+  - Congressos: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/participacao-social/congressos
+- **Auditorias**: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/auditorias
+- **Convênios e Transferências**: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/convenios-e-transferencias
+- **Receitas e Despesas**: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/receitas-e-despesas
+- **Licitações e Contratos**: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/licitacoes-e-contratos
+  - Avisos de Edital de Leilão: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/licitacoes-e-contratos/avisos-de-edital-de-leilao
+  - Contratos: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/licitacoes-e-contratos/contratos
+  - Licitações: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/licitacoes-e-contratos/licitacoes
+  - Relatórios: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/licitacoes-e-contratos/relatorios
+  - Anexos: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/licitacoes-e-contratos/anexos
+- **Servidores**: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/servidores
+- **Serviço de Informação ao Cidadão (SIC)**: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/servico-de-informacao-ao-cidadao
+  - Relatórios: https://www.gov.br/fazenda/pt-br/canais_atendimento/ouvidoria/relatorio-de-atividades/relatorio-anual-da-autoridade-de-monitoramento
+  - Autoridade de Monitoramento: https://www.gov.br/fazenda/pt-br/canais_atendimento/ouvidoria/servico-de-informacao-ao-cidadao/autoridade-de-monitoramento
+  - Como utilizar: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/servico-de-informacao-ao-cidadao/como-utilizar-1
+- **Perguntas Frequentes**: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes
+  - Benefícios Fiscais: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/beneficios-fiscais
+  - Cadastros: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/cadastros
+  - Compartilhamento de Dados: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/compartilhamento
+  - Concursos Públicos: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/concursos-publicos
+  - Construção Civil: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/construcao-civil
+  - Declaração de Serviços Médicos e de Saúde: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/dmed
+  - Imposto de Renda: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/imposto-de-renda
+  - Isenção para compra de carro: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/isencao-para-compra-de-carro
+  - Parcelamentos Especiais: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/parcelamentos-especiais
+  - Piloto da RTC: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/piloto-da-reforma-tributaria-do-consumo
+  - Programa Nacional de Apoio às Microempresas e Empresas de Pequeno Porte: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/pronampe
+  - Receita de Consenso: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/receita-de-consenso
+  - Serviços Digitais: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/servicos-digitais
 `;
