@@ -62,7 +62,7 @@ const API_KEYS = [
   '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',
   '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',
 ];
-const MODEL_NAME = 'deepseek/deepseek-r1-0528:free';
+const MODEL_NAME = 'qwen/qwen2.5-vl-72b-instruct:free';
 const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions';
 let requestCounter = 0;
 
@@ -70,7 +70,7 @@ class AiService {
   constructor() {}
 
   private getApiKey(): string {
-    const keyIndex = Math.floor(requestCounter / 2) % API_KEYS.length;
+    const keyIndex = Math.floor(requestCounter / 3) % API_KEYS.length;
     return API_KEYS[keyIndex];
   }
 
