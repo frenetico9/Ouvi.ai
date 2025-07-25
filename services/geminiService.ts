@@ -83,6 +83,12 @@ N2: [Texto literal do Nível 2]
 
 * Não acrescente frases introdutórias, títulos ou marcadores.
 
+⚠️ É terminantemente proibido inventar estruturas organizacionais, departamentos, divisões, coordenações ou siglas.
+
+Não crie nem mencione nomes inexistentes, como por exemplo: “Departamento de Estatística e Indicadores da Receita Federal do Brasil (DEIN)”.
+
+Utilize apenas nomenclaturas reais, oficiais e verificáveis da estrutura organizacional da Receita Federal. Se não estiver disponível na informação-base ou no domínio gov.br, não inclua.
+
 ---
 
 ### ✅ Resumo das Condutas Obrigatórias:
