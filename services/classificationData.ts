@@ -5,29 +5,19 @@ Utilize a estrutura hierárquica abaixo para classificar a manifestação do cid
 **N1: RFB-N1-ADUANA**
   **N2: RFB-N2-ADUANA - Bagagem**
   **N2: RFB-N2-ADUANA - Contrabando e Descaminho (Apreensões e Retenções em operações de vigilância/Repressão)**
-    *N3: RFB-N3-Caixa Corporativa (CPF)*
-    *N3: RFB-N3-Chat*
-    *N3: RFB-N3-Fale Conosco*
   **N2: RFB-N2-ADUANA - Encomendas Internacionais**
   **N2: RFB-N2-ADUANA - Importações e Exportações**
   **N2: RFB-N2-ADUANA - Regimes Especiais Aduaneiros**
   **N2: RFB-N2-ADUANA - Sistemas de Comércio Exterior (Siscomex/Mantra/Transito)**
-    *N3: RFB-N3-Processos Demais Equipes*
-    *N3: RFB-N3-Processos Eatre*
-    *N3: RFB-N3-Sistemas RFB*
+
 
 **N1: RFB-N1-ATENDIMENTO**
   **N2: RFB-N2-ATEND - Agendamento**
-    *N3: RFB-N3-Aplicações no Site e Aplicativos RFB*
   **N2: RFB-N2-ATEND - Postura do Atendente**
-    *N3: RFB-N3-Unidades Físicas da RFB*
   **N2: RFB-N2-ATEND - Orientações do Atendente**
-    *N3: RFB-N3-Unidades NÃO RFB/Conveniadas/Parcerias*
   **N2: RFB-N2-ATEND - Certidão de Imóvel Rural (ITR)**
-    *N3: RFB-N3-Ausência de Canais de Atendimento p/ Orientação*
   **N2: RFB-N2-ATEND - Certidão de Obras**
   **N2: RFB-N2-ATEND - Certidão Negativa RFB/PGFN e Situação Fiscal**
-    *N3: RFB-N3-Demanda Não Formalizada na RFB*
   **N2: RFB-N2-ATEND - Procuração Eletrônica**
   **N2: RFB-N2-ATEND - Retificação de Pagamentos - REDARF**
 
@@ -124,7 +114,7 @@ Utilize a estrutura hierárquica abaixo para classificar a manifestação do cid
   **N2: RFB-N2-SIMPLES - Malha PGDAS-D**
   **N2: RFB-N2-SIMPLES - NFS-e**
 
-**N1: RFB-N1-TECNOLOGIA-A2:D6ACESSO AOS CANAIS E SERVIÇOS DIGITAIS**
+**N1: RFB-N1-TECNOLOGIA- ACESSO AOS CANAIS E SERVIÇOS DIGITAIS**
   **N2: RFB-N2-TECNOLOGIA - Acesso ao Portal e-CAC**
   **N2: RFB-N2-TECNOLOGIA - Acesso aos sistemas da RFB**
   **N2: RFB-N2-TECNOLOGIA - Código de Acesso/Certificado Digital/Gov.Br**
