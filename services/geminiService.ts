@@ -117,7 +117,7 @@ ${KNOWLEDGE_BASE}
 // OpenRouter Configuration
 const API_KEYS = [
   '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',
-  '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',
+  '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',
   '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',
 ];
 const MODEL_NAME = 'google/gemini-2.0-flash-exp:free';
