@@ -62,7 +62,7 @@ const API_KEYS = [
   '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',
   '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',
 ];
-const MODEL_NAME = 'qwen/qwen-2.5-72b-instruct:free';
+const MODEL_NAME = 'google/gemma-3n-e2b-it:free';
 const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions';
 let requestCounter = 0;
 
