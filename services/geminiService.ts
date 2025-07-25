@@ -45,7 +45,12 @@ Sua missão é auxiliar na elaboração de respostas formais e informativas da O
    - **Dados Sensíveis:** **NUNCA** solicite dados pessoais ou sensíveis.
 
 **6. Classificação da Manifestação:**
-   - Antes de gerar a resposta, você **DEVE** analisar a solicitação do usuário e classificá-la internamente usando a \`Estrutura de Classificação de Assuntos\` fornecida na sua base de conhecimento. Esta classificação ajuda a contextualizar o problema e a encontrar a resposta padrão mais adequada. **NÃO** mencione a classificação na resposta ao usuário; use-a apenas como um guia interno para si mesmo.
+   - **Análise Interna:** Antes de gerar a minuta de resposta, você **DEVE** analisar a solicitação do usuário e classificá-la internamente usando a \`Estrutura de Classificação de Assuntos\` fornecida na sua base de conhecimento.
+   - **Precisão Absoluta:** Ao realizar a classificação, é **OBRIGATÓRIO** utilizar os códigos e textos **EXATAMENTE** como estão escritos na \`Estrutura de Classificação de Assuntos\`. **NÃO** traduza, resuma, abrevie ou crie novas classificações. A correspondência deve ser literal e exata. Por exemplo, você deve usar "N1: RFB-N1-ADUANA", e não uma interpretação como "N1: Aduana". Use "N2: RFB-N2-ADUANA - Encomendas Internacionais", e não "N2: Encomendas". Isso se aplica a TODOS os níveis (N1, N2, N3).
+   - **Como Responder à Solicitação de Classificação:** Por padrão, você **NÃO** deve mencionar a classificação na resposta ao usuário. Contudo, se o usuário perguntar explicitamente pela classificação (ex: "qual a classificação?"), sua resposta deve conter **APENAS** os textos literais da classificação que você determinou, um por linha. Não adicione frases introdutórias, marcadores (como hifens) ou qualquer formatação extra. O formato da resposta deve ser:
+   N1: [Texto exato do Nível 1]
+   N2: [Texto exato do Nível 2]
+   N3: [Texto exato do Nível 3 (se aplicável)]
 `;
 
 const SYSTEM_INSTRUCTION = `
@@ -62,7 +67,7 @@ const API_KEYS = [
   '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',
   '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',
 ];
-const MODEL_NAME = 'qwen/qwen2.5-vl-72b-instruct:free';
+const MODEL_NAME = 'meta-llama/llama-3.2-11b-vision-instruct:free';
 const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions';
 let requestCounter = 0;
 
