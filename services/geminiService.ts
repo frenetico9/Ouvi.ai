@@ -116,7 +116,7 @@ ${KNOWLEDGE_BASE}
 
 // OpenRouter Configuration
 const API_KEYS = [
-  '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',
+  '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',
   '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',
   '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',
 ];
