@@ -132,7 +132,7 @@ class AiService {
   constructor() {}
 
   private getApiKey(): string {
-    const keyIndex = Math.floor(requestCounter / 2) % API_KEYS.length;
+    const keyIndex = Math.floor(requestCounter / 1) % API_KEYS.length;
     return API_KEYS[keyIndex];
   }
 
