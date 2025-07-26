@@ -120,7 +120,7 @@ const API_KEYS = [
   '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',
   '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',
 ];
-const MODEL_NAME = 'google/gemini-2.0-flash-exp:free';
+const MODEL_NAME = 'qwen/qwen3-235b-a22b-2507:free';
 const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions';
 let requestCounter = 0;
 
