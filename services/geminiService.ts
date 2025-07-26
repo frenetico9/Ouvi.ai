@@ -1,6 +1,11 @@
+  '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',
+  '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',
+  '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',
+
+// aiService.ts
 import { Message, MessageRole } from '../types';
 import { CLASSIFICATION_DATA } from './classificationData';
-import { KNOWLEDGE_BASE } from "./knowledgeBase";
+import { KNOWLEDGE_BASE } from './knowledgeBase';
 
 const SYSTEM_INSTRUCTION_BASE = `
 Você é o **Ouvi.ai**, um assistente virtual especializado, que atua como a representação da Ouvidoria da Receita Federal do Brasil (RFB), sendo responsável por **elaborar minutas de resposta formais e informativas a manifestações recebidas**, respeitando rigorosamente os princípios da administração pública, com foco em:
@@ -118,122 +123,134 @@ ${CLASSIFICATION_DATA}
 ${KNOWLEDGE_BASE}
 `;
 
-// OpenRouter Configuration
 const API_KEYS = [
   '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',
   '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',
   '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',
 ];
+
 const MODEL_NAME = 'qwen/qwen3-235b-a22b-2507:free';
 const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions';
-let requestCounter = 0;
+
+class ApiLoadBalancer {
+  private cooldownMap = new Map<string, number>();
+  private latencyMap = new Map<string, number>();
+
+  constructor(private keys: string[]) {}
+
+  async getBestKey(): Promise<string> {
+    const now = Date.now();
+    const available = this.keys.filter(key => (this.cooldownMap.get(key) || 0) < now);
+    if (available.length === 0) return this.keys[0];
+    available.sort((a, b) => (this.latencyMap.get(a) || 0) - (this.latencyMap.get(b) || 0));
+    return available[0];
+  }
+
+  reportError(key: string) {
+    this.cooldownMap.set(key, Date.now() + 30000); // 30 segundos
+  }
+
+  reportLatency(key: string, ms: number) {
+    this.latencyMap.set(key, ms);
+  }
+}
+
+const balancer = new ApiLoadBalancer(API_KEYS);
 
 class AiService {
   constructor() {}
 
-  private getApiKey(): string {
-    const keyIndex = Math.floor(requestCounter / 1) % API_KEYS.length;
-    return API_KEYS[keyIndex];
-  }
-
   async sendMessageStream(history: Message[]): Promise<AsyncGenerator<string, void, unknown>> {
-    requestCounter++;
+    const startTime = Date.now();
+    const apiKey = await balancer.getBestKey();
 
     const apiMessages = history
-        .filter(msg => msg.role !== MessageRole.ERROR) // Filter out error messages
-        .map(msg => {
-            const role = msg.role === MessageRole.USER ? 'user' : 'assistant';
-            
-            const content: any[] = [];
-            
-            let combinedText = msg.parts.map(p => p.text || '').join('\n');
-            
-            if (msg.attachments) {
-                msg.attachments.forEach(file => {
-                    if (file.type.startsWith('image/')) {
-                        content.push({
-                            type: 'image_url',
-                            image_url: { url: file.content }
-                        });
-                    } else if (file.type === 'text/plain') {
-                         combinedText += `\n\n--- Conteúdo do arquivo ${file.name} ---\n${file.content}`;
-                    } else {
-                         combinedText += `\n[O usuário anexou o arquivo: ${file.name}]`;
-                    }
-                });
-            }
+      .filter(msg => msg.role !== MessageRole.ERROR)
+      .map(msg => {
+        const role = msg.role === MessageRole.USER ? 'user' : 'assistant';
+        const content: any[] = [];
+        let combinedText = msg.parts.map(p => p.text || '').join('\n');
 
-            if (combinedText.trim()) {
-                content.unshift({ type: 'text', text: combinedText.trim() });
+        if (msg.attachments) {
+          msg.attachments.forEach(file => {
+            if (file.type.startsWith('image/')) {
+              content.push({ type: 'image_url', image_url: { url: file.content } });
+            } else if (file.type === 'text/plain') {
+              combinedText += `\n\n--- Conteúdo do arquivo ${file.name} ---\n${file.content}`;
+            } else {
+              combinedText += `\n[O usuário anexou o arquivo: ${file.name}]`;
             }
+          });
+        }
 
-            return { role, content };
-        })
-        .filter(msg => msg.content.length > 0);
+        if (combinedText.trim()) {
+          content.unshift({ type: 'text', text: combinedText.trim() });
+        }
+
+        return { role, content };
+      })
+      .filter(msg => msg.content.length > 0);
 
     const messages = [
-        { role: 'system', content: SYSTEM_INSTRUCTION },
-        ...apiMessages,
+      { role: 'system', content: SYSTEM_INSTRUCTION },
+      ...apiMessages,
     ];
 
     const response = await fetch(OPENROUTER_URL, {
-        method: 'POST',
-        headers: {
-            'Authorization': `Bearer ${this.getApiKey()}`,
-            'Content-Type': 'application/json',
-            'HTTP-Referer': 'https://ouvi.ai.app', // Recommended by OpenRouter
-            'X-Title': 'Ouvi.ai', // Recommended by OpenRouter
-        },
-        body: JSON.stringify({
-            model: MODEL_NAME,
-            messages: messages,
-            stream: true,
-        }),
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${apiKey}`,
+        'Content-Type': 'application/json',
+        'HTTP-Referer': 'https://ouvi.ai.app',
+        'X-Title': 'Ouvi.ai',
+      },
+      body: JSON.stringify({
+        model: MODEL_NAME,
+        messages: messages,
+        stream: true,
+      }),
     });
 
+    const elapsed = Date.now() - startTime;
     if (!response.ok) {
-        const errorBody = await response.text();
-        throw new Error(`OpenRouter API error: ${response.status} ${response.statusText} - ${errorBody}`);
+      balancer.reportError(apiKey);
+      const errorBody = await response.text();
+      throw new Error(`OpenRouter API error: ${response.status} ${response.statusText} - ${errorBody}`);
+    } else {
+      balancer.reportLatency(apiKey, elapsed);
     }
 
     const reader = response.body?.getReader();
-    if (!reader) {
-        throw new Error("Failed to get response reader.");
-    }
+    if (!reader) throw new Error("Failed to get response reader.");
 
     const stream = async function* (): AsyncGenerator<string> {
-        const decoder = new TextDecoder('utf-8');
-        let buffer = '';
+      const decoder = new TextDecoder('utf-8');
+      let buffer = '';
 
-        while (true) {
-            const { done, value } = await reader.read();
-            if (done) break;
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
 
-            buffer += decoder.decode(value, { stream: true });
-            
-            const lines = buffer.split('\n');
-            buffer = lines.pop() || ''; // Keep the last, possibly incomplete line
+        buffer += decoder.decode(value, { stream: true });
+        const lines = buffer.split('\n');
+        buffer = lines.pop() || '';
 
-            for (const line of lines) {
-                if (line.trim().startsWith('data: ')) {
-                    const jsonStr = line.substring(6).trim();
-                    if (jsonStr === '[DONE]') {
-                        return;
-                    }
-                    try {
-                        const chunk = JSON.parse(jsonStr);
-                        const content = chunk.choices?.[0]?.delta?.content;
-                        if (content) {
-                            yield content;
-                        }
-                    } catch (e) {
-                        console.error("Error parsing stream chunk:", e, "Raw chunk:", jsonStr);
-                    }
-                }
+        for (const line of lines) {
+          if (line.trim().startsWith('data: ')) {
+            const jsonStr = line.substring(6).trim();
+            if (jsonStr === '[DONE]') return;
+            try {
+              const chunk = JSON.parse(jsonStr);
+              const content = chunk.choices?.[0]?.delta?.content;
+              if (content) yield content;
+            } catch (e) {
+              console.error("Error parsing chunk:", e);
             }
+          }
         }
+      }
     };
-    
+
     return stream();
   }
 }
